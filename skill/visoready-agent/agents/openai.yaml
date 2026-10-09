@@ -1,0 +1,4 @@
+interface:
+  display_name: "VisoReady Agent"
+  short_description: "Plan usage guides and capture real UI into VisoReady"
+  default_prompt: "Use $visoready-agent to analyze my project and suggest usage-guide titles before capturing the guides I select."

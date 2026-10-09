@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VisoReady Agent Test Uygulamasi</title>
+<style>
+body{margin:0;background:#F9FAFB;color:#18181B;font:16px Geist,Arial,sans-serif;line-height:1.65}
+header{padding:1rem 2rem;border-bottom:1px solid #e2e8f0;background:white}
+main{max-width:48rem;padding:2rem;margin:auto}h1{font-size:2rem;margin:0 0 1rem}
+button,input{font:inherit;border-radius:.75rem;padding:.5rem 1rem}
+button{white-space:nowrap;border:1px solid #3B82F6;background:#3B82F6;color:white;cursor:pointer}
+label{display:block;margin:1rem 0}input{display:block;box-sizing:border-box;width:100%;border:1px solid #94A3B8;background:white;color:#18181B}
+table{border-collapse:collapse;width:100%;margin:2rem 0}td,th{text-align:left;padding:.75rem;border-bottom:1px solid #e2e8f0}
+#saved{padding:1rem;border-left:4px solid #10B981} [hidden]{display:none!important}
+</style>
+<header><strong>VisoReady Agent</strong> / Yerel test uygulamasi</header>
+<main>
+<section id="list"><h1>Musteriler</h1><button id="new">Musteri ekle</button>
+<table><thead><tr><th>Firma</th><th>Sehir</th></tr></thead><tbody><tr><td>Kiyi Tasarim Atolyesi</td><td>Izmir</td></tr></tbody></table></section>
+<form id="form" hidden><h1>Yeni musteri</h1><label>Firma adi<input id="company" required></label><label>Sehir<input id="city"></label><button type="submit">Kaydet</button></form>
+<section id="saved" hidden><h1>Musteri eklendi</h1><p id="summary"></p></section>
+</main>
+<script>
+document.querySelector('#new').onclick=()=>{document.querySelector('#list').hidden=true;document.querySelector('#form').hidden=false;};
+document.querySelector('#form').onsubmit=e=>{e.preventDefault();document.querySelector('#form').hidden=true;document.querySelector('#saved').hidden=false;document.querySelector('#summary').textContent=document.querySelector('#company').value+' / '+document.querySelector('#city').value;};
+</script>
+</html>

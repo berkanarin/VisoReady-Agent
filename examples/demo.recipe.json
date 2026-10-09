@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "title": "Müşteri oluşturma - yerel test",
+  "language": "tr",
+  "startUrl": "{{BASE_URL}}",
+  "allowedOrigins": ["{{BASE_URL}}"],
+  "viewport": { "width": 1440, "height": 810 },
+  "steps": [
+    {
+      "key": "list",
+      "title": "Müşteri listesini açın",
+      "ready": "#new",
+      "annotations": [{ "target": { "role": "button", "name": "Musteri ekle" }, "text": "Yeni bir müşteri kaydı için Müşteri ekle düğmesine tıklayın.", "trigger": "goto", "goto": "form" }]
+    },
+    {
+      "key": "form",
+      "title": "Müşteri bilgilerini girin",
+      "actions": [{ "type": "click", "target": "#new" }],
+      "ready": "#form",
+      "annotations": [
+        { "target": { "label": "Firma adi" }, "text": "Firmanın adını bu alana yazın." },
+        { "target": { "label": "Sehir" }, "text": "Müşterinin bulunduğu şehri girin." },
+        { "target": { "role": "button", "name": "Kaydet" }, "text": "Bilgileri kontrol ettikten sonra Kaydet düğmesine tıklayın.", "trigger": "goto", "goto": "saved" }
+      ]
+    },
+    {
+      "key": "saved",
+      "title": "Sonucu kontrol edin",
+      "actions": [
+        { "type": "fill", "target": "#company", "value": "Kiyi Tasarim Atolyesi" },
+        { "type": "fill", "target": "#city", "value": "Izmir" },
+        { "type": "click", "target": { "role": "button", "name": "Kaydet" } }
+      ],
+      "ready": "#saved",
+      "annotations": [{ "target": "#saved", "text": "Müşteri kaydı oluşturuldu. Firma ve şehir bilgisini kontrol edin.", "trigger": "auto" }]
+    }
+  ]
+}

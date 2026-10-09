@@ -1,0 +1,2 @@
+# Preserve exact release-manifest hashes across Windows and Unix checkouts.
+* -text

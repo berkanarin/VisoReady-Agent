@@ -1,0 +1,306 @@
+{
+  "version": 1,
+  "packageVersion": "0.1.0",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "de7f2ef75b6c3bc347d5374b47cb8dc9e3bd2cb228483f80c4f3185b1ef2a601",
+      "bytes": 84
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "fb1e57c6b65c406557c20e45643999f3baf917b916428df92ff07cf7ac731cd7",
+      "bytes": 537
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "aef1a5560d4d28ae282927e9b95c65f3a0013440c16090b275e050a5dc9d8da4",
+      "bytes": 81
+    },
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "demos/google-maps-walking-route/ATTRIBUTION.md",
+      "sha256": "5ced98e12fa49b9863fad8b554ea3c404f1c9417aa19f716ff6b34a6ae6074d4",
+      "bytes": 1319
+    },
+    {
+      "path": "demos/google-maps-walking-route/captures/01-start.png",
+      "sha256": "2378fe983725aac03ee7e2ba8d9232201cca88a28e75081af3341be5adb19c04",
+      "bytes": 785852
+    },
+    {
+      "path": "demos/google-maps-walking-route/captures/02-walking.png",
+      "sha256": "d2c2abc9747f9a351f483708568db9378734f1b126852442be891dd943831483",
+      "bytes": 790796
+    },
+    {
+      "path": "demos/google-maps-walking-route/captures/03-pantheon.png",
+      "sha256": "1d7a046d890d926fc5744b412bac75bf4909d3472247c40abcd5932658a828f2",
+      "bytes": 779826
+    },
+    {
+      "path": "demos/google-maps-walking-route/captures/04-add-stop.png",
+      "sha256": "a6e683132e736fe2e265b3f8c24a17a76d401677808957c68bde485eddb624f7",
+      "bytes": 661445
+    },
+    {
+      "path": "demos/google-maps-walking-route/captures/05-trevi.png",
+      "sha256": "5b930c34332f5e3919668d57afcb80528c0029434782aa38aa9ad89f82577906",
+      "bytes": 647500
+    },
+    {
+      "path": "demos/google-maps-walking-route/captures/06-review.png",
+      "sha256": "c7d147a7ae4365b0775d29fb09ce9791435588eb8d4c123ece77bb71cfdd5cd3",
+      "bytes": 638526
+    },
+    {
+      "path": "demos/google-maps-walking-route/captures/07-details.png",
+      "sha256": "cbe5913ed9b3eb9093a1e48013ba951567c205bb175a704b06ac879f7c5b721c",
+      "bytes": 654888
+    },
+    {
+      "path": "demos/google-maps-walking-route/captures/manifest.json",
+      "sha256": "1073ab44c8da19828eb138111bf1c349918debfb8bbed3775759e6b374bf199f",
+      "bytes": 9571
+    },
+    {
+      "path": "demos/google-maps-walking-route/index.html",
+      "sha256": "aed0e1efe2758374e8c625cbeb7c803e225ae1b2931fe32cecd8d1fc17ce2112",
+      "bytes": 7569105
+    },
+    {
+      "path": "demos/google-maps-walking-route/project.ohig.json",
+      "sha256": "bb18cbbcc797aabacf820d0122e7cd9d6e5d440fae1b27c57eafece6db1dfe07",
+      "bytes": 6621862
+    },
+    {
+      "path": "demos/google-maps-walking-route/QA.md",
+      "sha256": "6264bc9a1a1264954efe543b758261254b103fccd93119e53aa88f1db3d12454",
+      "bytes": 2200
+    },
+    {
+      "path": "demos/google-maps-walking-route/README.md",
+      "sha256": "8adf80288bfb6b594bce3916f29dba99a50aa6b038c38c0c6b3ea72c2f5ebcb5",
+      "bytes": 3747
+    },
+    {
+      "path": "demos/google-maps-walking-route/recipe.json",
+      "sha256": "aa56f9e4566855d47f420ab0d31a0a70d4d27bdcd7d5465a2cd71e7e16b1caf4",
+      "bytes": 7086
+    },
+    {
+      "path": "docs/assets/visoready-agent-cover.png",
+      "sha256": "1e879c4d7d5ccd5ce0f59fa5c52c634b080f2bb103255f03a943bb34743241b0",
+      "bytes": 1805704
+    },
+    {
+      "path": "eslint.config.js",
+      "sha256": "1fb145b36584e81440165cd8c29081c9317bba25a480a638707c0d17b62d44a6",
+      "bytes": 171
+    },
+    {
+      "path": "examples/demo-app/index.html",
+      "sha256": "c4bec73261f27f3f1d9dcef5646034fd3d0626de6a2dd9c31186a1ab39e1d73a",
+      "bytes": 1986
+    },
+    {
+      "path": "examples/demo.recipe.json",
+      "sha256": "14746e4e67005df963dfa7648ac3a0b00db7ecc9f52b4c697a272262989d307a",
+      "bytes": 1573
+    },
+    {
+      "path": "examples/google-maps-copy.ts",
+      "sha256": "ecb3f3840ed16fad77cf1e1806820d7d3488f945294934dead81ff569732a1b1",
+      "bytes": 1128
+    },
+    {
+      "path": "examples/google-maps-walking-route.ts",
+      "sha256": "71fe81c154e6e3e070647f2c15d620ba9461db549e36568615cca882952bda78",
+      "bytes": 4423
+    },
+    {
+      "path": "INSTALL.md",
+      "sha256": "1077c7ef9a231e6c98340d3fa676d6b01fbde540379dd8be97aef29f4d707463",
+      "bytes": 4787
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "2e70b3f5f032fe6c756d65b4e8f16d7452ecd6fa039081433c5266ac5e8d455a",
+      "bytes": 1079
+    },
+    {
+      "path": "package.json",
+      "sha256": "036588eaeda879b95fa04d31e7a175a77d4133d2986a923aa47acfc6857ff6a0",
+      "bytes": 1025
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "3d31f18b3f5e4d903ca96a016dbf84726478e5743151268f876712e2368743fc",
+      "bytes": 41586
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "sha256": "ac02d96368617c760f093cfe61fdec64b6244007ab3553e0d6621f706f54a353",
+      "bytes": 29
+    },
+    {
+      "path": "README.md",
+      "sha256": "91a7c7d58dfc9d1fb6b7774246ee6df9cc6eed347d441ca711861d5c1f16d3db",
+      "bytes": 7062
+    },
+    {
+      "path": "RELEASE-CHECKLIST.md",
+      "sha256": "c1e1984a06255480f94a2cab137c3343ef1f99bb9f9321348c951995de396dea",
+      "bytes": 1828
+    },
+    {
+      "path": "scripts/release-smoke.mjs",
+      "sha256": "3ee7646580b6932bd1e4a4dee737e873ef152aebf6c34b6e16a42c81bb5002ed",
+      "bytes": 3657
+    },
+    {
+      "path": "scripts/release.mjs",
+      "sha256": "1b687818124eb898fbd3514095a8ebeaa14b00ac33fd9fd5935580d822434321",
+      "bytes": 2647
+    },
+    {
+      "path": "scripts/setup.mjs",
+      "sha256": "c65dda902224f439061b1b3eb8296006482a57e67f8e765529a27ad43fde14e9",
+      "bytes": 1967
+    },
+    {
+      "path": "Setup.ps1",
+      "sha256": "0b75160d6f233093b343da8c42bf9838c42ce1ee3c774e08ee4a6322d5ac86fa",
+      "bytes": 393
+    },
+    {
+      "path": "skill/visoready-agent/agents/openai.yaml",
+      "sha256": "c4a686c3e956588614f6521de4f45b622e5d9455aa39bf334bd724c60ceaa078",
+      "bytes": 253
+    },
+    {
+      "path": "skill/visoready-agent/references/workflow.md",
+      "sha256": "864207dcf272946afa1663f13764579e46d5e274a13e6218a93c3bab6f344844",
+      "bytes": 6705
+    },
+    {
+      "path": "skill/visoready-agent/scripts/run.mjs",
+      "sha256": "757c5f46b89ac9d5f435dfc486da5f15e7c47a9ed2a775caee5f686bcc66c3e3",
+      "bytes": 808
+    },
+    {
+      "path": "skill/visoready-agent/SKILL.md",
+      "sha256": "66994690593518823369bf8264653ece873c47f9c9ab0ff65be6b295f24ce64d",
+      "bytes": 7164
+    },
+    {
+      "path": "src/capture.ts",
+      "sha256": "a7d4b939e438056e0e61f531bfb053854fc8202c57b7297061c66192f043f676",
+      "bytes": 8518
+    },
+    {
+      "path": "src/cli.ts",
+      "sha256": "64d6e025d614f7ac6809fbe266acb79120b3775f659335eaaf435af092141be3",
+      "bytes": 5431
+    },
+    {
+      "path": "src/demo.ts",
+      "sha256": "f62f24f65fb76cee71e328d1586be603896aa60b6fa3626ef14f8c4a56221c05",
+      "bytes": 1238
+    },
+    {
+      "path": "src/editor.ts",
+      "sha256": "755d333586a202ecd5008f0a69e8e000fccaaeaa5d5e61e04f5dbd187d505080",
+      "bytes": 4609
+    },
+    {
+      "path": "src/files.ts",
+      "sha256": "5902213430fc8d11dbf37e5e292b03c592aade28739879ff5c5d6faf0b3a9c57",
+      "bytes": 1207
+    },
+    {
+      "path": "src/install.ts",
+      "sha256": "11da5186d0a3b2f31358cf13cc69121ff47b368470e84990984085f19945dbf4",
+      "bytes": 2442
+    },
+    {
+      "path": "src/plan.ts",
+      "sha256": "004b965e4b4a84050fbabc0a99e550fe0c3aee3c763399e782d9e6ac0d188d0a",
+      "bytes": 2644
+    },
+    {
+      "path": "src/project.ts",
+      "sha256": "6bfe0f1dc0a943ea10092503610d7c2ee76d936588f26d17e9e2778063228b3b",
+      "bytes": 7385
+    },
+    {
+      "path": "src/quality.ts",
+      "sha256": "0fe61a064ade4e42570bcbe7b1584f948cbe0310bba22d2b00d6fffbe41ef6e6",
+      "bytes": 10620
+    },
+    {
+      "path": "src/runtime.ts",
+      "sha256": "c2f0b151576c6e68e3ab245cfeb6c0b604497e76ab5fc3f23f1275783b762129",
+      "bytes": 584
+    },
+    {
+      "path": "src/schema.ts",
+      "sha256": "980897904e8c4ced9c0446ab440becb84038674d9fa2e72bcc1daa346ec7e5e1",
+      "bytes": 4800
+    },
+    {
+      "path": "src/source.ts",
+      "sha256": "e82f2e739781d9583cc2791fec1ca2282bacaec511871b03348764284af81345",
+      "bytes": 8231
+    },
+    {
+      "path": "tests/capture.e2e.ts",
+      "sha256": "acc1629d84c6d7181f29be2494eedf4ad94df8d6721319372732f4f7ab9eb899",
+      "bytes": 3271
+    },
+    {
+      "path": "tests/core.test.ts",
+      "sha256": "00b551a63989b7635e97691ec4281e99887a2e4bec0cd312cc3624f2752b581d",
+      "bytes": 8590
+    },
+    {
+      "path": "tests/install.test.ts",
+      "sha256": "4f944b0551f9d79f42019688026942f3f0a07a5b00173852e1c0a9152cecf940",
+      "bytes": 1961
+    },
+    {
+      "path": "tests/quality.e2e.ts",
+      "sha256": "ba8747a18d07e4b437fd87d3e5567b4dd32b85fbccca5db92c6538ae4ae2b66f",
+      "bytes": 3427
+    },
+    {
+      "path": "tests/quality.test.ts",
+      "sha256": "d626867d75154f661f71edb2310131e481167ca21d6565eb0e5a336e32d3069b",
+      "bytes": 2451
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "sha256": "f32a2aa1dd328163cbb5bda18214651e6e7cb2c5d93b0b20c23ca7679074eb2e",
+      "bytes": 1491
+    },
+    {
+      "path": "tsconfig.build.json",
+      "sha256": "461d80efeea0f69f02ce8ea2257849bd3f837b981125431dccc5247bd608bd79",
+      "bytes": 132
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "86742a0baa3e703640fd25cee05eb0bfa53d8306ca7e0803bd91307558abf3a7",
+      "bytes": 321
+    },
+    {
+      "path": "VisoReady.html",
+      "sha256": "4354ed0580fa7cb27fd041c8c951336556b5168370a9acfd7c1bdd5256312f0b",
+      "bytes": 2570831
+    }
+  ]
+}

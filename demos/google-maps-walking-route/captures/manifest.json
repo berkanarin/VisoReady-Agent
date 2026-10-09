@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "title": "Plan a Three-Stop Walking Route in Google Maps",
+  "language": "en",
+  "steps": [
+    {
+      "key": "start",
+      "title": "Start at the Colosseum",
+      "image": "01-start.png",
+      "annotations": [
+        {
+          "text": "We opened the Colosseum and chose Directions. Click the swap button to make it the starting point.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Start at the Colosseum",
+          "trigger": "goto",
+          "goto": "walking",
+          "px": [
+            416,
+            108,
+            56,
+            60
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "2378fe983725aac03ee7e2ba8d9232201cca88a28e75081af3341be5adb19c04",
+        "capturedAt": "2026-10-09T04:25:15.248Z",
+        "url": "https://www.google.com/maps/dir//Colosseum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+Italy/@41.8902102,12.4922309,17z/data=!4m16!1m7!3m6!1s0x132f61b6532013ad:0x28f1c82e908503c4!2sColosseum!8m2!3d41.8902102!4d12.4922309!16zL20vMGQ1cXg!4m7!1m0!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 0
+      }
+    },
+    {
+      "key": "walking",
+      "title": "Choose walking directions",
+      "image": "02-walking.png",
+      "annotations": [
+        {
+          "text": "Choose Walking for directions through central Rome.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Explore on foot",
+          "trigger": "goto",
+          "goto": "pantheon",
+          "px": [
+            276,
+            30,
+            48,
+            40
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "d2c2abc9747f9a351f483708568db9378734f1b126852442be891dd943831483",
+        "capturedAt": "2026-10-09T04:25:19.002Z",
+        "url": "https://www.google.com/maps/dir/Colosseum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+Italy//@41.8902102,12.4922309,17z/data=!4m8!4m7!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m0",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 0
+      }
+    },
+    {
+      "key": "pantheon",
+      "title": "Set your first destination",
+      "image": "03-pantheon.png",
+      "annotations": [
+        {
+          "text": "Enter Pantheon, Rome in the destination field and select the landmark. Click the highlighted field to see the result.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Visit the Pantheon",
+          "trigger": "goto",
+          "goto": "add-stop",
+          "px": [
+            144,
+            150,
+            230,
+            24
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "1d7a046d890d926fc5744b412bac75bf4909d3472247c40abcd5932658a828f2",
+        "capturedAt": "2026-10-09T04:25:22.756Z",
+        "url": "https://www.google.com/maps/dir/Colosseum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+Italy//@41.8902102,12.4922309,17z/data=!4m9!4m8!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m0!3e2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 0
+      }
+    },
+    {
+      "key": "add-stop",
+      "title": "Add another stop",
+      "image": "04-add-stop.png",
+      "annotations": [
+        {
+          "text": "The first leg is ready. Click Add destination to include a third place in the same route.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Add another stop",
+          "trigger": "goto",
+          "goto": "trevi",
+          "px": [
+            72,
+            190,
+            408,
+            40
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "a6e683132e736fe2e265b3f8c24a17a76d401677808957c68bde485eddb624f7",
+        "capturedAt": "2026-10-09T04:25:27.176Z",
+        "url": "https://www.google.com/maps/dir/Colosseum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+Italy/Pantheon,+Piazza+della+Rotonda,+00186+Roma+RM,+Italy/@41.8948196,12.4794624,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m5!1m1!1s0x132f604f678640a9:0xcad165fa2036ce2c!2m2!1d12.4768729!2d41.8986108!3e2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 1
+      }
+    },
+    {
+      "key": "trevi",
+      "title": "Include Trevi Fountain",
+      "image": "05-trevi.png",
+      "annotations": [
+        {
+          "text": "Enter Trevi Fountain, Rome in the new field and select the landmark. Click here to see the result.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Add Trevi Fountain",
+          "trigger": "goto",
+          "goto": "review",
+          "px": [
+            144,
+            198,
+            230,
+            24
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "5b930c34332f5e3919668d57afcb80528c0029434782aa38aa9ad89f82577906",
+        "capturedAt": "2026-10-09T04:25:30.908Z",
+        "url": "https://www.google.com/maps/dir/Colosseum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+Italy/Pantheon,+Piazza+della+Rotonda,+00186+Roma+RM,+Italy/@41.8948196,12.4794624,16z/data=!4m14!4m13!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m5!1m1!1s0x132f604f678640a9:0xcad165fa2036ce2c!2m2!1d12.4768729!2d41.8986108!3e2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 0
+      }
+    },
+    {
+      "key": "review",
+      "title": "Review the complete route",
+      "image": "06-review.png",
+      "annotations": [
+        {
+          "text": "The route connects all three landmarks. Choose Details to inspect the walking instructions.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Review your walk",
+          "trigger": "goto",
+          "goto": "details",
+          "px": [
+            134,
+            441,
+            69.8125,
+            48
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "c7d147a7ae4365b0775d29fb09ce9791435588eb8d4c123ece77bb71cfdd5cd3",
+        "capturedAt": "2026-10-09T04:25:35.156Z",
+        "url": "https://www.google.com/maps/dir/Colosseum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+Italy/Pantheon,+Piazza+della+Rotonda,+00186+Roma+RM,+Italy/Trevi+Fountain,+Piazza+di+Trevi,+00187+Roma+RM,+Italy/@41.8955712,12.4793846,16z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m5!1m1!1s0x132f604f678640a9:0xcad165fa2036ce2c!2m2!1d12.4768729!2d41.8986108!1m5!1m1!1s0x132f6053278340d5:0xf676f1e1cc02bbb6!2m2!1d12.483313!2d41.9009325!3e2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 1
+      }
+    },
+    {
+      "key": "details",
+      "title": "Check before you set off",
+      "image": "07-details.png",
+      "annotations": [
+        {
+          "text": "Use Share directions in Google Maps to share your walk. Check current routes before leaving; this demo is not live navigation.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Your route is ready",
+          "trigger": "auto",
+          "px": [
+            396,
+            102,
+            24,
+            24
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "cbe5913ed9b3eb9093a1e48013ba951567c205bb175a704b06ac879f7c5b721c",
+        "capturedAt": "2026-10-09T04:25:38.945Z",
+        "url": "https://www.google.com/maps/dir/Colosseum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+Italy/Pantheon,+Piazza+della+Rotonda,+00186+Roma+RM,+Italy/Trevi+Fountain,+Piazza+di+Trevi,+00187+Roma+RM,+Italy/@41.8955712,12.4793846,16z/am=t/data=!4m20!4m19!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m5!1m1!1s0x132f604f678640a9:0xcad165fa2036ce2c!2m2!1d12.4768729!2d41.8986108!1m5!1m1!1s0x132f6053278340d5:0xf676f1e1cc02bbb6!2m2!1d12.483313!2d41.9009325!3e2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 0
+      }
+    }
+  ]
+}
