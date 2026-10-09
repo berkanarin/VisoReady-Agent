@@ -4,7 +4,7 @@ No command in this package publishes, pushes or creates a remote release automat
 
 ## Automated preparation
 
-- Run `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm test:e2e`, `pnpm build`.
+- Run `pnpm lint`, `pnpm typecheck`, `pnpm build`, `pnpm test`, `pnpm test:e2e`. Build first: installer tests require the compiled runtime.
 - Run `pnpm exec node scripts/release-smoke.mjs`. Keep its JSON report locally.
 - Create a new clean bundle: `node scripts/release.mjs --out <new-directory>`.
 - Validate its `RELEASE-MANIFEST.json` hashes. Only the allowlisted sources, demo, editor, docs and notices belong in a release.

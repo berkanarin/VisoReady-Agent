@@ -9,7 +9,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "sha256": "fb1e57c6b65c406557c20e45643999f3baf917b916428df92ff07cf7ac731cd7",
+      "sha256": "bf818846748d3449d310c621c81ed3c994225e399654f39573ed128e047b1bdb",
       "bytes": 537
     },
     {
@@ -149,13 +149,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "91a7c7d58dfc9d1fb6b7774246ee6df9cc6eed347d441ca711861d5c1f16d3db",
+      "sha256": "edfc6aa2e9c59d5026012db97348f03e762a2268a6bf28793b0a539c632f0c89",
       "bytes": 7062
     },
     {
       "path": "RELEASE-CHECKLIST.md",
-      "sha256": "c1e1984a06255480f94a2cab137c3343ef1f99bb9f9321348c951995de396dea",
-      "bytes": 1828
+      "sha256": "f651ffc1265de170a0715017a8c36d7c98e70784f6b792a0c767723f5b5cf154",
+      "bytes": 1887
     },
     {
       "path": "scripts/release-smoke.mjs",

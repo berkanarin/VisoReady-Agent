@@ -93,9 +93,9 @@ pnpm install --frozen-lockfile
 pnpm exec playwright install chromium
 pnpm lint
 pnpm typecheck
+pnpm build
 pnpm test
 pnpm test:e2e
-pnpm build
 pnpm agent doctor
 pnpm demo
 ```
