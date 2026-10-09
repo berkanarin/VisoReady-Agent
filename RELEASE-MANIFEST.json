@@ -84,8 +84,8 @@
     },
     {
       "path": "demos/google-maps-walking-route/README.md",
-      "sha256": "8adf80288bfb6b594bce3916f29dba99a50aa6b038c38c0c6b3ea72c2f5ebcb5",
-      "bytes": 3747
+      "sha256": "c3d8813f90876c931e1df9a9d6599a43ac5d0ee076b14cdc73ad1cfc9661f7d6",
+      "bytes": 4042
     },
     {
       "path": "demos/google-maps-walking-route/recipe.json",
@@ -149,8 +149,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "edfc6aa2e9c59d5026012db97348f03e762a2268a6bf28793b0a539c632f0c89",
-      "bytes": 7062
+      "sha256": "cf40423c48afecbb5d9415ddf4697a823484d23e6efee4da1eb0662cdc9bc551",
+      "bytes": 7285
     },
     {
       "path": "RELEASE-CHECKLIST.md",

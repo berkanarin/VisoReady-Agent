@@ -6,8 +6,9 @@ A seven-screen interactive tutorial built with VisoReady Agent from the real, En
 
 ## Try the Demo
 
-- Open [index.html](index.html) locally in a browser. On GitHub, download the file first; the source viewer does not run HTML.
-- Open [project.ohig.json](project.ohig.json) in VisoReady to edit the annotations and share your own version.
+- [Download the full package (ZIP)](https://github.com/berkanarin/VisoReady-Agent/archive/refs/heads/main.zip) and extract it. The ZIP includes the demo, editable project, Agent and current VisoReady editor.
+- Open `demos/google-maps-walking-route/index.html` from the extracted folder in a browser. GitHub file and raw HTML pages display source code, not the running demo.
+- Open `VisoReady.html` at the package root and import `demos/google-maps-walking-route/project.ohig.json` to edit the annotations and share your own version.
 - Use the highlighted controls or the player's Next button to advance. Text entry is demonstrated, not simulated as an exercise.
 
 This is a screenshot-based walkthrough, not a live Google Maps session. It does not create or save a route to your account. Directions, travel times, place information and the live interface can change. Consult Google Maps before travelling.
