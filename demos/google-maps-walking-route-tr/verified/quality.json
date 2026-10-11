@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "status": "needs-review",
+  "expectedStates": 14,
+  "checkedStates": 14,
+  "errors": 0,
+  "warnings": 14,
+  "findings": [
+    {
+      "step": 1,
+      "annotation": 1,
+      "width": 390,
+      "code": "small-target",
+      "message": "Hedef küçük görünüyor; özellikle dokunmatik kullanımda ayrı kadrajı değerlendirin.",
+      "severity": "warning",
+      "screenshot": "quality-390-1-1.png"
+    },
+    {
+      "step": 1,
+      "annotation": 1,
+      "width": 390,
+      "code": "screen-downscaled",
+      "message": "Kaynak ekran çok küçültülüyor. Görsel içindeki yazıların okunurluğunu gözle kontrol edin; bu ölçüm OCR değildir.",
+      "severity": "warning",
+      "screenshot": "quality-390-1-1.png"
+    },
+    {
+      "step": 2,
+      "annotation": 1,
+      "width": 390,
+      "code": "small-target",
+      "message": "Hedef küçük görünüyor; özellikle dokunmatik kullanımda ayrı kadrajı değerlendirin.",
+      "severity": "warning",
+      "screenshot": "quality-390-2-1.png"
+    },
+    {
+      "step": 2,
+      "annotation": 1,
+      "width": 390,
+      "code": "screen-downscaled",
+      "message": "Kaynak ekran çok küçültülüyor. Görsel içindeki yazıların okunurluğunu gözle kontrol edin; bu ölçüm OCR değildir.",
+      "severity": "warning",
+      "screenshot": "quality-390-2-1.png"
+    },
+    {
+      "step": 3,
+      "annotation": 1,
+      "width": 390,
+      "code": "small-target",
+      "message": "Hedef küçük görünüyor; özellikle dokunmatik kullanımda ayrı kadrajı değerlendirin.",
+      "severity": "warning",
+      "screenshot": "quality-390-3-1.png"
+    },
+    {
+      "step": 3,
+      "annotation": 1,
+      "width": 390,
+      "code": "screen-downscaled",
+      "message": "Kaynak ekran çok küçültülüyor. Görsel içindeki yazıların okunurluğunu gözle kontrol edin; bu ölçüm OCR değildir.",
+      "severity": "warning",
+      "screenshot": "quality-390-3-1.png"
+    },
+    {
+      "step": 4,
+      "annotation": 1,
+      "width": 390,
+      "code": "small-target",
+      "message": "Hedef küçük görünüyor; özellikle dokunmatik kullanımda ayrı kadrajı değerlendirin.",
+      "severity": "warning",
+      "screenshot": "quality-390-4-1.png"
+    },
+    {
+      "step": 4,
+      "annotation": 1,
+      "width": 390,
+      "code": "screen-downscaled",
+      "message": "Kaynak ekran çok küçültülüyor. Görsel içindeki yazıların okunurluğunu gözle kontrol edin; bu ölçüm OCR değildir.",
+      "severity": "warning",
+      "screenshot": "quality-390-4-1.png"
+    },
+    {
+      "step": 5,
+      "annotation": 1,
+      "width": 390,
+      "code": "small-target",
+      "message": "Hedef küçük görünüyor; özellikle dokunmatik kullanımda ayrı kadrajı değerlendirin.",
+      "severity": "warning",
+      "screenshot": "quality-390-5-1.png"
+    },
+    {
+      "step": 5,
+      "annotation": 1,
+      "width": 390,
+      "code": "screen-downscaled",
+      "message": "Kaynak ekran çok küçültülüyor. Görsel içindeki yazıların okunurluğunu gözle kontrol edin; bu ölçüm OCR değildir.",
+      "severity": "warning",
+      "screenshot": "quality-390-5-1.png"
+    },
+    {
+      "step": 6,
+      "annotation": 1,
+      "width": 390,
+      "code": "small-target",
+      "message": "Hedef küçük görünüyor; özellikle dokunmatik kullanımda ayrı kadrajı değerlendirin.",
+      "severity": "warning",
+      "screenshot": "quality-390-6-1.png"
+    },
+    {
+      "step": 6,
+      "annotation": 1,
+      "width": 390,
+      "code": "screen-downscaled",
+      "message": "Kaynak ekran çok küçültülüyor. Görsel içindeki yazıların okunurluğunu gözle kontrol edin; bu ölçüm OCR değildir.",
+      "severity": "warning",
+      "screenshot": "quality-390-6-1.png"
+    },
+    {
+      "step": 7,
+      "annotation": 1,
+      "width": 390,
+      "code": "small-target",
+      "message": "Hedef küçük görünüyor; özellikle dokunmatik kullanımda ayrı kadrajı değerlendirin.",
+      "severity": "warning",
+      "screenshot": "quality-390-7-1.png"
+    },
+    {
+      "step": 7,
+      "annotation": 1,
+      "width": 390,
+      "code": "screen-downscaled",
+      "message": "Kaynak ekran çok küçültülüyor. Görsel içindeki yazıların okunurluğunu gözle kontrol edin; bu ölçüm OCR değildir.",
+      "severity": "warning",
+      "screenshot": "quality-390-7-1.png"
+    }
+  ],
+  "states": [
+    {
+      "step": 1,
+      "annotation": 1,
+      "width": 1440,
+      "status": "checked"
+    },
+    {
+      "step": 2,
+      "annotation": 1,
+      "width": 1440,
+      "status": "checked"
+    },
+    {
+      "step": 3,
+      "annotation": 1,
+      "width": 1440,
+      "status": "checked"
+    },
+    {
+      "step": 4,
+      "annotation": 1,
+      "width": 1440,
+      "status": "checked"
+    },
+    {
+      "step": 5,
+      "annotation": 1,
+      "width": 1440,
+      "status": "checked"
+    },
+    {
+      "step": 6,
+      "annotation": 1,
+      "width": 1440,
+      "status": "checked"
+    },
+    {
+      "step": 7,
+      "annotation": 1,
+      "width": 1440,
+      "status": "checked"
+    },
+    {
+      "step": 1,
+      "annotation": 1,
+      "width": 390,
+      "status": "checked"
+    },
+    {
+      "step": 2,
+      "annotation": 1,
+      "width": 390,
+      "status": "checked"
+    },
+    {
+      "step": 3,
+      "annotation": 1,
+      "width": 390,
+      "status": "checked"
+    },
+    {
+      "step": 4,
+      "annotation": 1,
+      "width": 390,
+      "status": "checked"
+    },
+    {
+      "step": 5,
+      "annotation": 1,
+      "width": 390,
+      "status": "checked"
+    },
+    {
+      "step": 6,
+      "annotation": 1,
+      "width": 390,
+      "status": "checked"
+    },
+    {
+      "step": 7,
+      "annotation": 1,
+      "width": 390,
+      "status": "checked"
+    }
+  ],
+  "limitations": [
+    "No OCR or semantic understanding of screenshot text",
+    "No source application mutations are replayed",
+    "Final completion, back navigation and unsupported interaction types require human review",
+    "No automatic camera, copy or layout changes"
+  ]
+}

@@ -23,6 +23,191 @@
       "bytes": 0
     },
     {
+      "path": "demos/google-maps-walking-route-tr/ATTRIBUTION.en.md",
+      "sha256": "5ced98e12fa49b9863fad8b554ea3c404f1c9417aa19f716ff6b34a6ae6074d4",
+      "bytes": 1319
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/ATTRIBUTION.md",
+      "sha256": "f31aab13984eacda6eb4128ce78b385250c900d71707725b92c0781366fe2083",
+      "bytes": 1149
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/captures/01-start.png",
+      "sha256": "6f9fb8544d1b4d184bb3f2dde2541779b155311281a2054b9d6b59b0e0f05370",
+      "bytes": 785101
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/captures/02-walking.png",
+      "sha256": "7287b34d20e8ffb082ae06f7526661029d569754b88bd108d61e7121eadbdb32",
+      "bytes": 790281
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/captures/03-pantheon.png",
+      "sha256": "563b7fb708c7d88da5c0e37c427d6ff47b1293125565114185198361eef5fbc6",
+      "bytes": 780768
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/captures/04-add-stop.png",
+      "sha256": "ca967d4e2c64926037360690b3fa259db45ecbf3e5e195cf1e33702c4814b720",
+      "bytes": 661823
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/captures/05-trevi.png",
+      "sha256": "cb8292d32ba371e3d47c2174bccf406415c3e750f3f910e0a6b72084f44b296a",
+      "bytes": 644379
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/captures/06-review.png",
+      "sha256": "cde5a4069cfdbe532f0880be62076d1a55de50eaca8b569570d89406bb7696ea",
+      "bytes": 644883
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/captures/07-details.png",
+      "sha256": "87ad3057d90f872366e07b2cdfaea89a1c8cb5ccaf23071a2ceafa3c9c81217b",
+      "bytes": 665198
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/captures/manifest.json",
+      "sha256": "55988eb99340f117ad987043688e437ea908adcebb2df1d366a2c78ac81acd97",
+      "bytes": 9984
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/evidence.json",
+      "sha256": "eaaa8cdc823d20251682ef8a0e52377bb2070bddea8467e74f33de24d082ebdf",
+      "bytes": 5753
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/index.html",
+      "sha256": "56913edc4190037251326bcd8bb7442a74b95c02d509723b39b1062fd59ca774",
+      "bytes": 7587829
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/project.ohig.json",
+      "sha256": "669604ce06fe476ca6a1e02b32796e7458235f5363ec942ac154d618769192eb",
+      "bytes": 6640347
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/QA.md",
+      "sha256": "d50610f7f986b5b35af5a62af59a5836295f7d8869468ac7b4af9334063fd593",
+      "bytes": 2226
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/README.md",
+      "sha256": "cd2291fa7e22b2a97d3c982219ac4b659611ba7ab8cb9599660afaa10c20d056",
+      "bytes": 3140
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/recipe.json",
+      "sha256": "1e33afb9862b5605e69819bbced1ae64e790598db9e6b4a2d45c0ed0d313e663",
+      "bytes": 7668
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/review.html",
+      "sha256": "3322711860fbde6578ceba6a2ced7bd20bda83ce7512622caec826b328575241",
+      "bytes": 6634120
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/check.json",
+      "sha256": "3189d86ba81a46c2375def316f38c1988160921986583c9fd2d8fda24c1bac41",
+      "bytes": 588
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/delivery-check.json",
+      "sha256": "646c7363fe5a5895f603065e6a3a167c85aa60fd1a2be873a4db75f43d8884d4",
+      "bytes": 1057
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/editor.png",
+      "sha256": "fc9e1be15a17120881a1f5399733cfd077ff89043d2bae154f6f2af3ec588aa7",
+      "bytes": 493576
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/navigation-check.json",
+      "sha256": "0fdfeb4bb711bab1a11f1ae4f0ba7a1a662f5e751d91ded9fe944dd2021f2774",
+      "bytes": 1526
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/player-1440.png",
+      "sha256": "31ce56f5ddbb630f1ab579304931a962ffd51cb861fa115157c032727eee5dd4",
+      "bytes": 642502
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/player-390.png",
+      "sha256": "e9e0831a0b41922416449793fd8c12089fd949737290b52faf63da56b62a4986",
+      "bytes": 120131
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/preview.html",
+      "sha256": "56913edc4190037251326bcd8bb7442a74b95c02d509723b39b1062fd59ca774",
+      "bytes": 7587829
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/QUALITY.md",
+      "sha256": "f52f2ea1536984a4398619f7f45399384ca8fde8f6b5728aeb7941115d51f17a",
+      "bytes": 3264
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/quality-390-1-1.png",
+      "sha256": "2330be9dee008b2dfca89b7e426b592c6576f37fc63ebf1c0de6dcfa8428ecc0",
+      "bytes": 120134
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/quality-390-2-1.png",
+      "sha256": "aa9cbcf06f627abe77efe59985c2d91b28fc89621efdaa40d432ba14c86ba4bc",
+      "bytes": 119797
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/quality-390-3-1.png",
+      "sha256": "ad90a081678b2495efe957664113ddd03f413ff79d84418063e6f7fb0964be55",
+      "bytes": 118060
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/quality-390-4-1.png",
+      "sha256": "26c506adb0c104ad4ab7ff1eca2868a1d055fc4685034108358b68ddfe7eef00",
+      "bytes": 125669
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/quality-390-5-1.png",
+      "sha256": "10566acbd9b93cb04ab5db5b31e04cbb30f294be03bb80a1fead7d5634404ade",
+      "bytes": 123775
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/quality-390-6-1.png",
+      "sha256": "73fe1b08df2424bbbde0ce8f66e51f4fb26382bcf26f997ff533d620f18e02cb",
+      "bytes": 124823
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/quality-390-7-1.png",
+      "sha256": "f96dc19dc7fce027e66353400d49e8410bf3bebccade87ecdf90beb0b2b3e89c",
+      "bytes": 126666
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/quality.json",
+      "sha256": "d44f89500aed8b368cdab0dd136a0a0640ec6a08a7d304e849a314adf0d7945b",
+      "bytes": 6151
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/step-6-1440.png",
+      "sha256": "0627e760f066ee6ac77225219b6681b635c63769cc71292a9e73cdfd0ec52ec4",
+      "bytes": 675098
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/step-6-390.png",
+      "sha256": "b57d5813859669005ba769c2b52fd3724ce9745d35891ad0f7e8d34e7dba8460",
+      "bytes": 124825
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/step-7-1440.png",
+      "sha256": "0e86359d3ecbed8a0c92d69873e3701b96b1d6b3695373bb61c0a919dba82224",
+      "bytes": 680652
+    },
+    {
+      "path": "demos/google-maps-walking-route-tr/verified/step-7-390.png",
+      "sha256": "1686fef4be89884844561835ccebfa67c9cf4482b80a70a72a95cb4320f6f8f6",
+      "bytes": 126672
+    },
+    {
       "path": "demos/google-maps-walking-route/ATTRIBUTION.md",
       "sha256": "5ced98e12fa49b9863fad8b554ea3c404f1c9417aa19f716ff6b34a6ae6074d4",
       "bytes": 1319
@@ -118,6 +303,11 @@
       "bytes": 1128
     },
     {
+      "path": "examples/google-maps-walking-route-tr.ts",
+      "sha256": "4b324bfb42ff05948720696b1d5ceffaf9afc3238bc5f594fe8ee18ff2465418",
+      "bytes": 6497
+    },
+    {
       "path": "examples/google-maps-walking-route.ts",
       "sha256": "71fe81c154e6e3e070647f2c15d620ba9461db549e36568615cca882952bda78",
       "bytes": 4423
@@ -149,8 +339,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "cf40423c48afecbb5d9415ddf4697a823484d23e6efee4da1eb0662cdc9bc551",
-      "bytes": 7285
+      "sha256": "db2bb9ce655309afd1c5de063d13708e7a9d8e5eec14ede16c9d75eabf77275c",
+      "bytes": 7374
     },
     {
       "path": "RELEASE-CHECKLIST.md",
@@ -164,8 +354,8 @@
     },
     {
       "path": "scripts/release.mjs",
-      "sha256": "1b687818124eb898fbd3514095a8ebeaa14b00ac33fd9fd5935580d822434321",
-      "bytes": 2647
+      "sha256": "d70cf478c37a604a8fcb9ef3d99c3b1b70aee6d22d4f870b9509af2b6f0aed86",
+      "bytes": 2729
     },
     {
       "path": "scripts/setup.mjs",

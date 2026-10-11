@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "title": "Google Haritalar’da üç duraklı yürüyüş rotası oluşturun",
+  "language": "tr",
+  "steps": [
+    {
+      "key": "start",
+      "title": "Kolezyum’u başlangıç yapın",
+      "image": "01-start.png",
+      "annotations": [
+        {
+          "text": "Kolezyum için Yol tarifi ekranını açtık. Burayı başlangıç noktası yapmak için yer değiştirme düğmesine tıklayın.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Kolezyum’dan başlayın",
+          "trigger": "goto",
+          "goto": "walking",
+          "px": [
+            416,
+            108,
+            56,
+            60
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "6f9fb8544d1b4d184bb3f2dde2541779b155311281a2054b9d6b59b0e0f05370",
+        "capturedAt": "2026-10-09T05:10:06.130Z",
+        "url": "https://www.google.com/maps/dir//Kolezyum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+%C4%B0talya/@41.8902102,12.4922309,17z/data=!4m16!1m7!3m6!1s0x132f61b6532013ad:0x28f1c82e908503c4!2sKolezyum!8m2!3d41.8902102!4d12.4922309!16zL20vMGQ1cXg!4m7!1m0!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 0
+      }
+    },
+    {
+      "key": "walking",
+      "title": "Yürüyüş yol tarifini seçin",
+      "image": "02-walking.png",
+      "annotations": [
+        {
+          "text": "Roma’nın merkezinde yürüyüş rotası oluşturmak için Yürüyüş seçeneğini işaretleyin.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Yürüyerek keşfedin",
+          "trigger": "goto",
+          "goto": "pantheon",
+          "px": [
+            276,
+            30,
+            48,
+            40
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "7287b34d20e8ffb082ae06f7526661029d569754b88bd108d61e7121eadbdb32",
+        "capturedAt": "2026-10-09T05:10:09.869Z",
+        "url": "https://www.google.com/maps/dir/Kolezyum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+%C4%B0talya//@41.8902102,12.4922309,17z/data=!4m8!4m7!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m0",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 0
+      }
+    },
+    {
+      "key": "pantheon",
+      "title": "İlk varış noktasını belirleyin",
+      "image": "03-pantheon.png",
+      "annotations": [
+        {
+          "text": "Varış alanına Pantheon, Rome yazın ve yeri seçin. İşaretli alana tıklayarak sonucu görebilirsiniz.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "İlk durak: Panteon",
+          "trigger": "goto",
+          "goto": "add-stop",
+          "px": [
+            144,
+            150,
+            230,
+            24
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "563b7fb708c7d88da5c0e37c427d6ff47b1293125565114185198361eef5fbc6",
+        "capturedAt": "2026-10-09T05:10:13.630Z",
+        "url": "https://www.google.com/maps/dir/Kolezyum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+%C4%B0talya//@41.8902102,12.4922309,17z/data=!4m9!4m8!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m0!3e2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 0
+      }
+    },
+    {
+      "key": "add-stop",
+      "title": "Yeni bir durak ekleyin",
+      "image": "04-add-stop.png",
+      "annotations": [
+        {
+          "text": "İlk bölüm hazır. Aynı rotaya üçüncü bir yer eklemek için Hedef ekleyin düğmesine tıklayın.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Bir durak daha ekleyin",
+          "trigger": "goto",
+          "goto": "trevi",
+          "px": [
+            72,
+            190,
+            408,
+            40
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "ca967d4e2c64926037360690b3fa259db45ecbf3e5e195cf1e33702c4814b720",
+        "capturedAt": "2026-10-09T05:10:18.557Z",
+        "url": "https://www.google.com/maps/dir/Kolezyum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+%C4%B0talya/Panteon,+Piazza+della+Rotonda,+00186+Roma+RM,+%C4%B0talya/@41.8948196,12.4794624,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m5!1m1!1s0x132f604f678640a9:0xcad165fa2036ce2c!2m2!1d12.4768729!2d41.8986108!3e2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 1
+      }
+    },
+    {
+      "key": "trevi",
+      "title": "Trevi Çeşmesi’ni rotaya ekleyin",
+      "image": "05-trevi.png",
+      "annotations": [
+        {
+          "text": "Yeni varış alanına Trevi Fountain, Rome yazın ve yeri seçin. İşaretli alana tıklayarak sonucu görebilirsiniz.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Trevi Çeşmesi’ni ekleyin",
+          "trigger": "goto",
+          "goto": "review",
+          "px": [
+            144,
+            198,
+            230,
+            24
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "cb8292d32ba371e3d47c2174bccf406415c3e750f3f910e0a6b72084f44b296a",
+        "capturedAt": "2026-10-09T05:10:22.276Z",
+        "url": "https://www.google.com/maps/dir/Kolezyum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+%C4%B0talya/Panteon,+Piazza+della+Rotonda,+00186+Roma+RM,+%C4%B0talya/@41.8948196,12.4794624,16z/data=!4m14!4m13!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m5!1m1!1s0x132f604f678640a9:0xcad165fa2036ce2c!2m2!1d12.4768729!2d41.8986108!3e2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 0
+      }
+    },
+    {
+      "key": "review",
+      "title": "Üç duraklı rotayı inceleyin",
+      "image": "06-review.png",
+      "annotations": [
+        {
+          "text": "Rota, Kolezyum’u, Panteon’u ve Trevi Çeşmesi’ni birleştiriyor. Yürüyüş adımlarını görmek için Ayrıntılar düğmesine tıklayın.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Rotanızı inceleyin",
+          "trigger": "goto",
+          "goto": "details",
+          "px": [
+            134,
+            441,
+            84.75,
+            48
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "cde5a4069cfdbe532f0880be62076d1a55de50eaca8b569570d89406bb7696ea",
+        "capturedAt": "2026-10-09T05:10:26.536Z",
+        "url": "https://www.google.com/maps/dir/Kolezyum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+%C4%B0talya/Panteon,+Piazza+della+Rotonda,+00186+Roma+RM,+%C4%B0talya/Trevi+%C3%87e%C5%9Fmesi,+Piazza+di+Trevi,+00187+Roma+RM,+%C4%B0talya/@41.8955712,12.4793846,16z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m5!1m1!1s0x132f604f678640a9:0xcad165fa2036ce2c!2m2!1d12.4768729!2d41.8986108!1m5!1m1!1s0x132f6053278340d5:0xf676f1e1cc02bbb6!2m2!1d12.483313!2d41.9009325!3e2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 1
+      }
+    },
+    {
+      "key": "details",
+      "title": "Yola çıkmadan önce kontrol edin",
+      "image": "07-details.png",
+      "annotations": [
+        {
+          "text": "Google Haritalar’da rotayı paylaşmak için Yol tarifini paylaşın düğmesini kullanabilirsiniz. Yola çıkmadan önce güncel rotayı kontrol edin; bu demo canlı navigasyon değildir.",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true,
+          "label": "Rotanız hazır",
+          "trigger": "auto",
+          "px": [
+            396,
+            102,
+            24,
+            24
+          ]
+        }
+      ],
+      "evidence": {
+        "kind": "browser",
+        "fidelity": "actual-source",
+        "sha256": "87ad3057d90f872366e07b2cdfaea89a1c8cb5ccaf23071a2ceafa3c9c81217b",
+        "capturedAt": "2026-10-09T05:10:30.306Z",
+        "url": "https://www.google.com/maps/dir/Kolezyum,+P.za+del+Colosseo,+1,+00184+Roma+RM,+%C4%B0talya/Panteon,+Piazza+della+Rotonda,+00186+Roma+RM,+%C4%B0talya/Trevi+%C3%87e%C5%9Fmesi,+Piazza+di+Trevi,+00187+Roma+RM,+%C4%B0talya/@41.8955712,12.4793846,16z/am=t/data=!4m20!4m19!1m5!1m1!1s0x132f61b6532013ad:0x28f1c82e908503c4!2m2!1d12.4922309!2d41.8902102!1m5!1m1!1s0x132f604f678640a9:0xcad165fa2036ce2c!2m2!1d12.4768729!2d41.8986108!1m5!1m1!1s0x132f6053278340d5:0xf676f1e1cc02bbb6!2m2!1d12.483313!2d41.9009325!3e2",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "assertionsPassed": 0
+      }
+    }
+  ]
+}

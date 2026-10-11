@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "title": "Google Haritalar’da üç duraklı yürüyüş rotası oluşturun",
+  "language": "tr",
+  "fidelity": "actual-source",
+  "startUrl": "https://www.google.com/maps/search/Colosseum,+Rome/?hl=tr&gl=tr",
+  "allowedOrigins": [
+    "https://www.google.com"
+  ],
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "key": "start",
+      "title": "Kolezyum’u başlangıç yapın",
+      "actions": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Yol tarifi"
+          }
+        }
+      ],
+      "ready": {
+        "role": "button",
+        "name": "Başlangıç noktası ile hedefin yerini değiştir"
+      },
+      "annotations": [
+        {
+          "target": {
+            "role": "button",
+            "name": "Başlangıç noktası ile hedefin yerini değiştir"
+          },
+          "label": "Kolezyum’dan başlayın",
+          "text": "Kolezyum için Yol tarifi ekranını açtık. Burayı başlangıç noktası yapmak için yer değiştirme düğmesine tıklayın.",
+          "trigger": "goto",
+          "goto": "walking",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true
+        }
+      ],
+      "settleMs": 3500
+    },
+    {
+      "key": "walking",
+      "title": "Yürüyüş yol tarifini seçin",
+      "actions": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Başlangıç noktası ile hedefin yerini değiştir"
+          }
+        }
+      ],
+      "ready": {
+        "role": "radio",
+        "name": "Yürüyüş"
+      },
+      "annotations": [
+        {
+          "target": {
+            "role": "radio",
+            "name": "Yürüyüş"
+          },
+          "label": "Yürüyerek keşfedin",
+          "text": "Roma’nın merkezinde yürüyüş rotası oluşturmak için Yürüyüş seçeneğini işaretleyin.",
+          "trigger": "goto",
+          "goto": "pantheon",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true
+        }
+      ],
+      "settleMs": 3500
+    },
+    {
+      "key": "pantheon",
+      "title": "İlk varış noktasını belirleyin",
+      "actions": [
+        {
+          "type": "click",
+          "target": {
+            "role": "radio",
+            "name": "Yürüyüş"
+          }
+        }
+      ],
+      "ready": {
+        "role": "textbox",
+        "name": "Varış noktası seçin veya haritayı tıklayın..."
+      },
+      "annotations": [
+        {
+          "target": {
+            "role": "textbox",
+            "name": "Varış noktası seçin veya haritayı tıklayın..."
+          },
+          "label": "İlk durak: Panteon",
+          "text": "Varış alanına Pantheon, Rome yazın ve yeri seçin. İşaretli alana tıklayarak sonucu görebilirsiniz.",
+          "trigger": "goto",
+          "goto": "add-stop",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true
+        }
+      ],
+      "settleMs": 3500
+    },
+    {
+      "key": "add-stop",
+      "title": "Yeni bir durak ekleyin",
+      "actions": [
+        {
+          "type": "fill",
+          "target": {
+            "role": "textbox",
+            "name": "Varış noktası seçin veya haritayı tıklayın..."
+          },
+          "value": "Pantheon, Rome"
+        },
+        {
+          "type": "press",
+          "target": {
+            "role": "textbox",
+            "name": "Hedef Pantheon, Rome"
+          },
+          "key": "Enter"
+        }
+      ],
+      "ready": {
+        "role": "button",
+        "name": "Hedef ekleyin"
+      },
+      "assertions": [
+        {
+          "target": "[role=\"main\"][aria-label=\"Yol tarifi\"]",
+          "containsText": "Ayrıntılar"
+        }
+      ],
+      "annotations": [
+        {
+          "target": {
+            "role": "button",
+            "name": "Hedef ekleyin"
+          },
+          "label": "Bir durak daha ekleyin",
+          "text": "İlk bölüm hazır. Aynı rotaya üçüncü bir yer eklemek için Hedef ekleyin düğmesine tıklayın.",
+          "trigger": "goto",
+          "goto": "trevi",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true
+        }
+      ],
+      "settleMs": 3500
+    },
+    {
+      "key": "trevi",
+      "title": "Trevi Çeşmesi’ni rotaya ekleyin",
+      "actions": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Hedef ekleyin"
+          }
+        }
+      ],
+      "ready": {
+        "role": "textbox",
+        "name": "Varış noktası seçin veya haritayı tıklayın..."
+      },
+      "annotations": [
+        {
+          "target": {
+            "role": "textbox",
+            "name": "Varış noktası seçin veya haritayı tıklayın..."
+          },
+          "label": "Trevi Çeşmesi’ni ekleyin",
+          "text": "Yeni varış alanına Trevi Fountain, Rome yazın ve yeri seçin. İşaretli alana tıklayarak sonucu görebilirsiniz.",
+          "trigger": "goto",
+          "goto": "review",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true
+        }
+      ],
+      "settleMs": 3500
+    },
+    {
+      "key": "review",
+      "title": "Üç duraklı rotayı inceleyin",
+      "actions": [
+        {
+          "type": "fill",
+          "target": {
+            "role": "textbox",
+            "name": "Varış noktası seçin veya haritayı tıklayın..."
+          },
+          "value": "Trevi Fountain, Rome"
+        },
+        {
+          "type": "press",
+          "target": {
+            "role": "textbox",
+            "name": "Hedef Trevi Fountain, Rome"
+          },
+          "key": "Enter"
+        }
+      ],
+      "ready": {
+        "role": "button",
+        "name": "Hedef ekleyin"
+      },
+      "assertions": [
+        {
+          "target": "[role=\"main\"][aria-label=\"Yol tarifi\"]",
+          "containsText": "Ayrıntılar"
+        }
+      ],
+      "annotations": [
+        {
+          "target": {
+            "role": "button",
+            "name": "Ayrıntılar"
+          },
+          "label": "Rotanızı inceleyin",
+          "text": "Rota, Kolezyum’u, Panteon’u ve Trevi Çeşmesi’ni birleştiriyor. Yürüyüş adımlarını görmek için Ayrıntılar düğmesine tıklayın.",
+          "trigger": "goto",
+          "goto": "details",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true
+        }
+      ],
+      "settleMs": 3500
+    },
+    {
+      "key": "details",
+      "title": "Yola çıkmadan önce kontrol edin",
+      "actions": [
+        {
+          "type": "click",
+          "target": {
+            "role": "button",
+            "name": "Ayrıntılar"
+          }
+        }
+      ],
+      "ready": {
+        "role": "button",
+        "name": "Yol tarifini paylaşın"
+      },
+      "annotations": [
+        {
+          "target": {
+            "role": "button",
+            "name": "Yol tarifini paylaşın"
+          },
+          "label": "Rotanız hazır",
+          "text": "Google Haritalar’da rotayı paylaşmak için Yol tarifini paylaşın düğmesini kullanabilirsiniz. Yola çıkmadan önce güncel rotayı kontrol edin; bu demo canlı navigasyon değildir.",
+          "trigger": "auto",
+          "style": "frame",
+          "spot": "square",
+          "backdrop": false,
+          "showLabel": true
+        }
+      ],
+      "settleMs": 3500
+    }
+  ]
+}

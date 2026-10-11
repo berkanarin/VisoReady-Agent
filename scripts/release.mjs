@@ -29,6 +29,6 @@ const bundled = join(root, 'VisoReady.html');
 let editor = bundled;
 try { await lstat(bundled); } catch { editor = join(root, '..', 'VisoReady.html'); }
 await copy(editor, 'VisoReady.html');
-for (const name of ['examples/google-maps-walking-route.ts', 'examples/google-maps-copy.ts', 'demos/google-maps-walking-route', 'docs/assets/visoready-agent-cover.png', '.github/workflows/ci.yml', '.nojekyll', '.gitattributes']) await copy(join(root, name), name);
+for (const name of ['examples/google-maps-walking-route.ts', 'examples/google-maps-copy.ts', 'examples/google-maps-walking-route-tr.ts', 'demos/google-maps-walking-route', 'demos/google-maps-walking-route-tr', 'docs/assets/visoready-agent-cover.png', '.github/workflows/ci.yml', '.nojekyll', '.gitattributes']) await copy(join(root, name), name);
 await writeFile(join(out, 'RELEASE-MANIFEST.json'), JSON.stringify({ version: 1, packageVersion: JSON.parse(await readFile(join(root, 'package.json'), 'utf8')).version, files: files.sort((a, b) => a.path.localeCompare(b.path)) }, null, 2));
 console.log(JSON.stringify({ out, files: files.length, published: false }));

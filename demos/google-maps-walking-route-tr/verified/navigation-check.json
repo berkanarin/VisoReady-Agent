@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1440,
+      "step": 1,
+      "heading": "Kolezyum’dan başlayın"
+    },
+    {
+      "width": 1440,
+      "step": 2,
+      "heading": "Yürüyerek keşfedin"
+    },
+    {
+      "width": 1440,
+      "step": 3,
+      "heading": "İlk durak: Panteon"
+    },
+    {
+      "width": 1440,
+      "step": 4,
+      "heading": "Bir durak daha ekleyin"
+    },
+    {
+      "width": 1440,
+      "step": 5,
+      "heading": "Trevi Çeşmesi’ni ekleyin"
+    },
+    {
+      "width": 1440,
+      "step": 6,
+      "heading": "Rotanızı inceleyin"
+    },
+    {
+      "width": 1440,
+      "step": 7,
+      "heading": "Rotanız hazır"
+    },
+    {
+      "width": 390,
+      "step": 1,
+      "heading": "Kolezyum’dan başlayın"
+    },
+    {
+      "width": 390,
+      "step": 2,
+      "heading": "Yürüyerek keşfedin"
+    },
+    {
+      "width": 390,
+      "step": 3,
+      "heading": "İlk durak: Panteon"
+    },
+    {
+      "width": 390,
+      "step": 4,
+      "heading": "Bir durak daha ekleyin"
+    },
+    {
+      "width": 390,
+      "step": 5,
+      "heading": "Trevi Çeşmesi’ni ekleyin"
+    },
+    {
+      "width": 390,
+      "step": 6,
+      "heading": "Rotanızı inceleyin"
+    },
+    {
+      "width": 390,
+      "step": 7,
+      "heading": "Rotanız hazır"
+    }
+  ],
+  "extra": [
+    "back and forward",
+    "completion",
+    "restart",
+    "Turkish caption headings",
+    "no horizontal overflow",
+    "single-line next labels"
+  ],
+  "sourceSharingExecuted": false
+}

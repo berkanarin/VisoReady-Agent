@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "language": "tr",
+  "screens": [
+    {
+      "key": "start",
+      "hash": "6f9fb8544d1b4d184bb3f2dde2541779b155311281a2054b9d6b59b0e0f05370",
+      "preserved": true
+    },
+    {
+      "key": "walking",
+      "hash": "7287b34d20e8ffb082ae06f7526661029d569754b88bd108d61e7121eadbdb32",
+      "preserved": true
+    },
+    {
+      "key": "pantheon",
+      "hash": "563b7fb708c7d88da5c0e37c427d6ff47b1293125565114185198361eef5fbc6",
+      "preserved": true
+    },
+    {
+      "key": "add-stop",
+      "hash": "ca967d4e2c64926037360690b3fa259db45ecbf3e5e195cf1e33702c4814b720",
+      "preserved": true
+    },
+    {
+      "key": "trevi",
+      "hash": "cb8292d32ba371e3d47c2174bccf406415c3e750f3f910e0a6b72084f44b296a",
+      "preserved": true
+    },
+    {
+      "key": "review",
+      "hash": "cde5a4069cfdbe532f0880be62076d1a55de50eaca8b569570d89406bb7696ea",
+      "preserved": true
+    },
+    {
+      "key": "details",
+      "hash": "87ad3057d90f872366e07b2cdfaea89a1c8cb5ccaf23071a2ceafa3c9c81217b",
+      "preserved": true
+    }
+  ]
+}

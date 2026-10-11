@@ -13,6 +13,7 @@ Give the agent a local project, a Git repository or a running web app. It analyz
 **Plan a Three-Stop Walking Route in Google Maps:** Colosseum, Pantheon, Trevi Fountain.
 
 - [Demo files and instructions](demos/google-maps-walking-route/README.md)
+- [Türkçe demo ve düzenlenebilir proje](demos/google-maps-walking-route-tr/README.md)
 - [Download the full package (ZIP): editor, demo and editable project](https://github.com/berkanarin/VisoReady-Agent/archive/refs/heads/main.zip)
 
 Extract the ZIP, then open `demos/google-maps-walking-route/index.html` in your browser to play the demo. To edit it, open `VisoReady.html` at the package root and import `demos/google-maps-walking-route/project.ohig.json`. No installation is needed to play the demo or use the editor. GitHub's file viewer and raw HTML links show source code; they do not play the demo.

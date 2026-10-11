@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "steps": 7,
+  "checks": [
+    "editor normalization",
+    "actual project import",
+    "offline HTML export",
+    "desktop/mobile player first screen"
+  ],
+  "qualityStatus": "needs-review",
+  "checkedStates": 14,
+  "pending": [
+    "human visual review",
+    "source application outcome verification",
+    "No OCR or semantic understanding of screenshot text",
+    "No source application mutations are replayed",
+    "Final completion, back navigation and unsupported interaction types require human review",
+    "No automatic camera, copy or layout changes"
+  ]
+}
