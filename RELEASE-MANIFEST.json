@@ -79,8 +79,8 @@
     },
     {
       "path": "demos/google-maps-walking-route-tr/index.html",
-      "sha256": "56913edc4190037251326bcd8bb7442a74b95c02d509723b39b1062fd59ca774",
-      "bytes": 7587829
+      "sha256": "d4b8bffb3fc22e51f21dab8cf04396525a98e870197ec2d5b44d172540fba6c4",
+      "bytes": 7587709
     },
     {
       "path": "demos/google-maps-walking-route-tr/project.ohig.json",
@@ -139,8 +139,8 @@
     },
     {
       "path": "demos/google-maps-walking-route-tr/verified/preview.html",
-      "sha256": "56913edc4190037251326bcd8bb7442a74b95c02d509723b39b1062fd59ca774",
-      "bytes": 7587829
+      "sha256": "d4b8bffb3fc22e51f21dab8cf04396525a98e870197ec2d5b44d172540fba6c4",
+      "bytes": 7587709
     },
     {
       "path": "demos/google-maps-walking-route-tr/verified/QUALITY.md",
@@ -254,8 +254,8 @@
     },
     {
       "path": "demos/google-maps-walking-route/index.html",
-      "sha256": "aed0e1efe2758374e8c625cbeb7c803e225ae1b2931fe32cecd8d1fc17ce2112",
-      "bytes": 7569105
+      "sha256": "dcfcf0e0e604ef8eadd056ed53f18e90c2fe58b95bdaff2c2a287576c7a7c640",
+      "bytes": 7568985
     },
     {
       "path": "demos/google-maps-walking-route/project.ohig.json",
@@ -489,8 +489,8 @@
     },
     {
       "path": "VisoReady.html",
-      "sha256": "f96fe3b7f26a696376f86ba2250dd9bfb0accb795ac3ce009cddda377cdcdf3d",
-      "bytes": 2571526
+      "sha256": "37f58ea6b23b1931c7f8bea84e71cff053376585ce7301b8f80ede68c8ff4c14",
+      "bytes": 2571504
     }
   ]
 }
