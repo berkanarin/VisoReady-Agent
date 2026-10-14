@@ -548,6 +548,21 @@ function createGuideI18n(language) {
   "Akıştan kaldır": "Remove from flow",
   "“{0}” ekranı ve açıklamaları akıştan kaldırılsın mı? Medya kütüphanesindeki görsel korunur.": "Remove screen “{0}” and its annotations from the flow? The image stays in the media library.",
   "Sol panel genişliği": "Left panel width",
+  "Örnek: Pera Tasarım": "Example: Pera Studio",
+  "{0}/{1} ekran anlatıldı": "{0}/{1} screens annotated",
+  "Yeni fatura": "New invoice",
+  "Müşteri adı": "Customer name",
+  "Para birimi": "Currency",
+  "Faturayı oluştur": "Create invoice",
+  "Müşterinin adını yazın. “Doldur” düğmesi örnek bir ad yazar.": "Enter the customer's name. The Fill button enters an example name.",
+  "Para birimi listesinden EUR’u seçin.": "Select EUR from the currency list.",
+  "Hazır olduğunuzda düğmeye tıklayın.": "Click the button when you are ready.",
+  "Fatura oluşturuldu": "Invoice created",
+  "FTR-2026-0042 numaralı fatura kaydedildi.": "Invoice FTR-2026-0042 has been saved.",
+  "Sonuç": "Result",
+  "Fatura numarası burada görünür.": "The invoice number appears here.",
+  "Örnek: Fatura oluşturma": "Example: Create an invoice",
+  "Bu örnek akışta Yaz, Seç ve Tıkla türlerini deneyebilirsiniz.": "Try the Type, Select and Click interactions in this example flow.",
   "Önce adımları seç.": "Select steps first.",
   "{0} adım çoğaltıldı.": "{0} steps duplicated.",
   "{0} adım silindi.": "{0} steps deleted.",
@@ -17652,7 +17667,11 @@ function bindV6ActionPicker() {
   spotField.className = "field v5-setting-row v6-spot-field";
   spotField.innerHTML = '<span></span><select data-v6="spot"></select>';
   L.text(spotField.querySelector("span"), "Vurgu şekli");
-  [["auto", "Otomatik"], ["square", "Köşeli"], ["rounded", "Yuvarlak köşe"], ["pill", "Hap"], ["circle", "Daire"]].forEach(([value, label]) => spotField.querySelector("select").append(new Option(L.t(label), value)));
+  [["auto", "Otomatik"], ["square", "Köşeli"], ["rounded", "Yuvarlak köşe"], ["pill", "Hap"], ["circle", "Daire"]].forEach(([value, label]) => {
+    const option = new Option("", value);
+    L.text(option, label);
+    spotField.querySelector("select").append(option);
+  });
   spotField.querySelector("select").addEventListener("change", (event) => {
     const hotspot = getCurrentHotspot();
     if (!hotspot) return;
@@ -17662,7 +17681,7 @@ function bindV6ActionPicker() {
     renderStage();
   });
   fields.after(spotField);
-  fields.querySelector("[data-v6=value]").placeholder = L.t("Örnek: Acme A.Ş.");
+  L.attr(fields.querySelector("[data-v6=value]"), "placeholder", "Örnek: Pera Tasarım");
   fields.addEventListener("input", (event) => {
     const hotspot = getCurrentHotspot();
     const key = event.target.dataset?.v6;
@@ -18030,38 +18049,38 @@ function buildV6Sample() {
     g.fillStyle = "#f4f4f5"; g.fillRect(0, 0, 1280, 800);
     g.fillStyle = "#18181b"; g.fillRect(0, 0, 1280, 64);
     g.fillStyle = "#fafafa"; g.font = "bold 24px sans-serif"; g.fillText("Ledgerly", 32, 40);
-    g.fillStyle = "#18181b"; g.font = "bold 40px sans-serif"; g.fillText(title, 80, 150);
+    g.fillStyle = "#18181b"; g.font = "bold 40px sans-serif"; g.fillText(L.t(title), 80, 150);
     draw(g);
     return canvas.toDataURL("image/png");
   };
   const field = (g, label, y, value) => {
-    g.fillStyle = "#3f3f46"; g.font = "20px sans-serif"; g.fillText(label, 80, y - 12);
+    g.fillStyle = "#3f3f46"; g.font = "20px sans-serif"; g.fillText(L.t(label), 80, y - 12);
     g.fillStyle = "#fff"; g.fillRect(80, y, 460, 52); g.strokeStyle = "#a1a1aa"; g.lineWidth = 2; g.strokeRect(80, y, 460, 52);
     if (value) { g.fillStyle = "#18181b"; g.font = "22px sans-serif"; g.fillText(value, 96, y + 34); }
   };
-  const one = createStep({ name: "yeni-fatura.png", type: "image/png", width: 1280, height: 800, dataUrl: shot("Yeni fatura", (g) => {
+  const one = createStep({ name: L.language === "en" ? "new-invoice.png" : "yeni-fatura.png", type: "image/png", width: 1280, height: 800, dataUrl: shot("Yeni fatura", (g) => {
     field(g, "Müşteri adı", 240, ""); field(g, "Para birimi", 350, "TRY");
-    g.fillStyle = "#2563eb"; g.fillRect(80, 450, 200, 56); g.fillStyle = "#fff"; g.font = "bold 22px sans-serif"; g.fillText("Faturayı oluştur", 100, 486);
+    g.fillStyle = "#2563eb"; g.fillRect(80, 450, 200, 56); g.fillStyle = "#fff"; g.font = "bold 22px sans-serif"; g.fillText(L.t("Faturayı oluştur"), 100, 486);
   }) });
-  one.title = "Yeni fatura";
-  const hot = (rect, text, extra = {}) => ({ ...createHotspot(rect), description: text, ...extra });
+  one.title = L.t("Yeni fatura");
+  const hot = (rect, text, extra = {}) => ({ ...createHotspot(rect), description: L.t(text), ...extra });
   one.hotspots = [
-    hot({ x: 80 / 1280, y: 240 / 800, w: 460 / 1280, h: 52 / 800 }, "Müşterinin adını yazın. “Doldur” düğmesi örnek bir ad yazar.", { trigger: "type", value: "Acme A.Ş." }),
+    hot({ x: 80 / 1280, y: 240 / 800, w: 460 / 1280, h: 52 / 800 }, "Müşterinin adını yazın. “Doldur” düğmesi örnek bir ad yazar.", { trigger: "type", value: "Pera Studio" }),
     hot({ x: 80 / 1280, y: 350 / 800, w: 460 / 1280, h: 52 / 800 }, "Para birimi listesinden EUR’u seçin.", { trigger: "select", options: ["TRY", "USD", "EUR"], answer: 2 }),
     hot({ x: 80 / 1280, y: 450 / 800, w: 200 / 1280, h: 56 / 800 }, "Hazır olduğunuzda düğmeye tıklayın.", { trigger: "click" }),
   ];
   one.primaryHotspotId = one.hotspots[0].id;
-  const two = createStep({ name: "sonuc.png", type: "image/png", width: 1280, height: 800, dataUrl: shot("Fatura oluşturuldu", (g) => {
-    g.fillStyle = "#3f3f46"; g.font = "24px sans-serif"; g.fillText("FTR-2026-0042 numaralı fatura kaydedildi.", 80, 220);
+  const two = createStep({ name: L.language === "en" ? "result.png" : "sonuc.png", type: "image/png", width: 1280, height: 800, dataUrl: shot("Fatura oluşturuldu", (g) => {
+    g.fillStyle = "#3f3f46"; g.font = "24px sans-serif"; g.fillText(L.t("FTR-2026-0042 numaralı fatura kaydedildi."), 80, 220);
   }) });
-  two.title = "Sonuç";
+  two.title = L.t("Sonuç");
   two.hotspots = [hot({ x: 80 / 1280, y: 190 / 800, w: 620 / 1280, h: 50 / 800 }, "Fatura numarası burada görünür.", { style: "none", backdrop: false })];
   two.primaryHotspotId = two.hotspots[0].id;
   const project = createProject();
-  project.meta.name = "Örnek: Fatura oluşturma";
+  project.meta.name = L.t("Örnek: Fatura oluşturma");
   project.steps = [one, two];
   project.steps.forEach((step) => { step.sectionId = project.sections[0].id; });
-  project.meta.introDescription = "Bu örnek akışta Yaz, Seç ve Tıkla türlerini deneyebilirsiniz.";
+  project.meta.introDescription = L.t("Bu örnek akışta Yaz, Seç ve Tıkla türlerini deneyebilirsiniz.");
   return project;
 }
 
